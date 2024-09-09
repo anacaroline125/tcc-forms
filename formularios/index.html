@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>BGFestas</title>
+</head>
+<body>
+    <div class="geral">
+        <div class="esquerda">
+            <form class="card">
+              <div class="numero-etapa-certa">1</div>
+              <div class="numero-etapa">2</div>
+              <div class="numero-etapa">3</div>
+                <div class="form-section">
+                    <div>
+                        <h3>Data da entrega</h3>
+                        <input type="date" required>
+                    </div>
+                    <div>
+                        <h3>Horário da entrega</h3>
+                        <input type="time" required>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <div>
+                        <h3>Data da retirada</h3>
+                        <input type="date" required>
+                    </div>
+                    <div>
+                        <h3>Horário da retirada</h3>
+                        <input type="time" required>
+                    </div>
+                </div>
+                <div class="form-carrinho">
+                    <h3>Carrinho de compras</h3>
+                    <div class="cart-item">
+                      <label for="jogos">Jogos (1 mesa + 4 cadeiras)</label>
+                      <select id="jogos" name="jogos">
+                        <option value="0">Qtd: 0</option>
+                        <option value="1">Qtd: 1</option>
+                        <option value="2">Qtd: 2</option>
+                        <option value="3">Qtd: 3</option>
+                      </select>
+                    </div>
+                    <div class="cart-item">
+                        <label for="mesas">Mesas avulsas</label>
+                        <select id="mesas" name="mesas">
+                          <option value="0">Qtd: 0</option>
+                          <option value="1">Qtd: 1</option>
+                          <option value="2">Qtd: 2</option>
+                        </select>
+                      </div>
+                      <div class="cart-item">
+                        <label for="cadeiras">Cadeiras avulsas</label>
+                        <select id="cadeiras" name="cadeiras">
+                          <option value="0">Qtd: 0</option>
+                          <option value="1">Qtd: 1</option>
+                          <option value="2">Qtd: 2</option>
+                        </select>
+                      </div>
+                      <div class="order-summary">
+                        <h3>Resumo do pedido</h3>
+                        <div class="item">
+                          <span>Jogos:</span>
+                          <span class="valor">R$ 20,00</span>
+                        </div>
+                        <div class="item">
+                          <span>Mesas avulsas:</span>
+                          <span class="valor">R$ 0,00</span>
+                        </div>
+                        <div class="item">
+                          <span>Cadeiras avulsas:</span>
+                          <span class="valor">R$ 0,00</span>
+                        </div>
+                        <div class="item">
+                          <span>Frete e manuseio:</span>
+                          <span  class="valor">R$ 30,00</span>
+                        </div>
+                        <hr>
+                        <div class="resumo-pedido">
+                            <div class="total">
+                                <strong>Total do pedido:</strong>
+                                <strong class="valor">R$ 50,00</strong>
+                            </div>
+                            <button class="btn-prosseguir">Prosseguir</button>
+                        </div>
+                    </div>
+        </div>
+        </form>
+        <form class="card">
+          <div class="numero-etapa">1</div>
+          <div class="numero-etapa-certa">2</div>
+          <div class="numero-etapa">3</div>
+
+          <div class="form-etapa">
+            <div>
+              <label for="cep">CEP</label>
+              <input type="text" id="cep" placeholder="Ex.: 00000-000">
+            </div>
+            <div>
+              <label for="endereco">Endereço</label>
+              <input type="text" id="endereco" placeholder="">
+            </div>
+            <div>
+              <label for="numero">Número</label>
+              <input type="text" id="numero" placeholder="número ou s/n">    
+            </div>
+            <div>
+              <label for="complemento">Complemento</label>
+              <input type="text" id="complemento" placeholder="Apartamento, sala, conjunto, edifício, andar, etc.">
+            </div>
+            <div>
+              <label for="bairro">Bairro</label>
+              <input type="text" id="bairro" placeholder="">
+            </div>
+            <div>
+              <label for="cidade">Cidade</label>
+              <input type="text" id="cidade" placeholder="Insira o CEP acima para preencher a cidade">
+            </div>
+            <div>
+              <label for="estado">Estado</label>
+              <input type="text" id="estado" placeholder="Insira o CEP acima para preencher a cidade">
+            </div>
+          </div>
+
+          <button type="submit" class="btn-prosseguir">Prosseguir</button>
+        </form>
+        <div class="direita"></div>
+            <img src="aaaa" alt="">
+        </div>
+    </div>
+</body>
+</html>

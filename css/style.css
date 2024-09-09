@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+hr{
+    border-top: 1px solid #EB7100;
+}
+#jogos, #mesas, #cadeiras{
+    background-color: #EB7100;
+    color: #FBF7F4;
+    border: 1px solid #EB7100;
+    border-radius: 5px;
+    padding: 4px, 16px;
+    gap: 4px;
+    height: 25px;
+    width: 84px;
+    font-size: 14px;
+    text-align: center;
+}
+.item{
+    margin-top: 8px;
+}
+.item, .total{
+    display: flex;
+    justify-content: space-between; 
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between; 
+}
+.cart-item select{
+    text-align: right;
+}
+.order-summary, .form-carrinho{
+    margin-top: 24px;
+}
+.valor{
+    text-align: right;
+}
+.total strong{
+    margin-bottom: 24px;
+}
+.btn-prosseguir{
+    background-color: #EB7100;
+    color: #FBF7F4;
+    height: 35px;
+    width: 374px;
+    border: none;
+    border-radius: 0.5rem;
+}
+.geral{
+    display: flex;
+}
+.esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    font-family: "Inter", sans-serif;
+    max-width: 27.3rem; /* Define a largura máxima do card */
+    padding: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #FBF7F4;
+}
+.form-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 2rem;
+
+}
+.form-section input{
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.numero-etapa-certa {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background-color: #EB7100; /* Fundo laranja */
+    border-radius: 50%; /* Bordas arredondadas (círculo) */
+    color: white;
+    font-size: 18px;
+}
+.numero-etapa{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background-color: #EDE8E1;
+    border-radius: 50%; /* Bordas arredondadas (círculo) */
+}
+
+.numero-etapa {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
